@@ -22,7 +22,7 @@
       address: 5400
       state_class: measurement
       unit_of_measurement: "V"
-      data_type: float
+      data_type: float16
       precision: 1
       input_type: holding
       device_class: voltage
@@ -33,7 +33,7 @@
       address: 5402
       state_class: measurement
       unit_of_measurement: "A"
-      data_type: float
+      data_type: float16
       scale: 1
       precision: 1
       input_type: holding
@@ -45,7 +45,7 @@
       address: 5404
       state_class: measurement
       unit_of_measurement: "W"
-      data_type: float
+      data_type: float16
       scale: 1
       precision: 0
       input_type: holding
