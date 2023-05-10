@@ -15,7 +15,7 @@
   # Device ID ("Slave", standard: 247) can be set in inverter menu configuration->communication->RS485->DeviceID
 
   sensors:
-    - name: "PV1-Voltage"
+    - name: "L1-Voltage"
       unique_id: studer_inv1_l1_voltage
       scan_interval: 30
       count: 2
@@ -26,7 +26,7 @@
       precision: 1
       input_type: holding
       device_class: voltage
-    - name: "PV1-Current"
+    - name: "L1-Current"
       unique_id: studer_inv1_l1_current
       scan_interval: 30
       count: 2
@@ -38,7 +38,7 @@
       precision: 1
       input_type: holding
       device_class: current
-    - name: "PV1-Power"
+    - name: "L1-Power"
       unique_id: studer_inv1_l1_power
       scan_interval: 30
       count: 2
