@@ -1,10 +1,10 @@
 {
-    "domain": "foxess",
-    "name": "FoxESS Community Modbus Integration",
-    "documentation": "https://github.com/StealthChesnut/HA-FoxESS-Modbus",
-    "issue_tracker": "https://github.com/StealthChesnut/HA-FoxESS-Modbus/issues",
+    "domain": "studer",
+    "name": "Studer Innotec Community Modbus Integration",
+    "documentation": "https://github.com/freeverbier/HA_Studer_ModbusTCP",
+    "issue_tracker": "https://github.com/freeverbier/HA_Studer_ModbusTCP/issues",
     "dependencies": [],
-    "codeowners": ["@StealthChesnut"],
+    "codeowners": ["@freeverbier"],
     "requirements": [],
     "iot_class": "local_polling",
     "version": "1.0.0"
