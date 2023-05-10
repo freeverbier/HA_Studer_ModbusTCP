@@ -18,19 +18,18 @@
     - name: "PV1-Voltage"
       unique_id: studer_inv1_l1_voltage
       scan_interval: 30
-      slave: 1
+      count: 2
       address: 5400
       state_class: measurement
       unit_of_measurement: "V"
       data_type: float
-      scale: 1
       precision: 1
       input_type: holding
       device_class: voltage
     - name: "PV1-Current"
       unique_id: studer_inv1_l1_current
       scan_interval: 30
-      slave: 1
+      count: 2
       address: 5402
       state_class: measurement
       unit_of_measurement: "A"
@@ -42,7 +41,7 @@
     - name: "PV1-Power"
       unique_id: studer_inv1_l1_power
       scan_interval: 30
-      slave: 1
+      count: 2
       address: 5404
       state_class: measurement
       unit_of_measurement: "W"
