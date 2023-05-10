@@ -6,9 +6,9 @@
 # ---------------------------RS485 Connection----------------------------------------
 #  For use when connecting to RS485 port of inverter
 #
-- name: HA-FoxESS-Modbus-LAN
+- name: HA_Studer_ModbusTCP
   type: tcp
-  host: 192.168.178.189 # set to USR devices ip address
+  host: 192.168.0.60 # set to USR devices ip address
   port: 502
   #
   # ---------------------------------------------------------------------------
